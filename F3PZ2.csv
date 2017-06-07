@@ -1,0 +1,43 @@
+canonical,^8.2,
+form_type,1,FORM TYPE
+filer_committee_id_number,2,FILER COMMITTEE ID NUMBER
+principal_committee_name,3,PRINCIPAL COMMITTEE NAME
+coverage_from_date,4,COVERAGE FROM DATE
+coverage_through_date,5,COVERAGE THROUGH DATE
+col_a_cash_beginning_reporting_period,6,6 Cash on Hand at Beginning of Reporting Period
+col_a_cash_on_hand_close,7,10 Cash on Hand at Close of Reporting Period
+col_a_debts_to,8,11 Debts and Obligations Owed TO the Committee
+col_a_debts_by,9,12 Debts and Obligations Owed BY the Committee
+col_a_expenditures_subject_to_limits,10,13 Expenditures Subject to Limitation
+col_a_net_contributions,11,14 Net Contributions
+col_a_net_operating_expenditures,12,15 Net Operating Expenditures
+col_a_federal_funds,13,16 Federal Funds
+col_a_individual_contributions,14,17(a)(iii) Contributions from Individuals/Persons Other Than Political Committees
+col_a_political_party_contributions,15,17(b) Contributions from Political Party Committees
+col_a_pac_contributions,16,17(c) Contributions from Other Political Committees
+col_a_candidate_contributions,17,17(d) Contributions from the Candidate 
+col_a_total_contributions,18,17(e) Total Contributions
+col_a_transfers_from_authorized,19,18 Transfers from Other Authorized Committees
+col_a_candidate_loans,20,19(a) Loans Received From or Guaranteed by the Candidate
+col_a_other_loans,21,19(b) Other Loans
+col_a_total_loans,22,19(c) Total Loans
+col_a_offset_to_operating_expenditures,23,20(a) Offsets to Operating Expenditures
+col_a_offset_to_fundraising_expenditures,24,20(b) Offsets to Fundraising Expenditures
+col_a_offset_to_legal_expenditures,25,20(c) Offsets to Legal and Accounting Expenditures
+col_a_total_offset,26,20(d) Total Offsets to Expenditures
+col_a_other_receipts,27,21 Other Receipts 
+col_a_total_receipts,28,22 Total Receipts
+col_a_operating_expenditures,29,23 Operating Expenditures
+col_a_transfers_to_authorized,30,24 Transfers to Other Authorized Committees
+col_a_fundraising_disbursements,31,25 Fundraising Disbursements
+col_a_exempt_legal_disbursements,32,26 Exempt Legal and Accounting Disbursements
+col_a_candidate_loan_repayments,33,27(a) Repayments of Loans Made or Guaranteed by Candidate
+col_a_other_loan_repayments,34,27(b) Other Loan Repayments
+col_a_total_loan_repayments,35,27(c) Total Loan Repayments Made
+col_a_refunds_to_individuals,36,28(a) Refunds of Contributions from Individuals/Persons
+col_a_refunds_to_party_committees,37,28(b) Refunds of Contributions from Political Party Committees
+col_a_refunds_to_other_committees,38,28(c) Refunds of Contributions from Other Political Committees
+col_a_total_refunds,39,28(d) Total Contributions Refunds
+col_a_other_disbursements,40,29 Other Disbursements
+col_a_total_disbursements,41,30 Total Disbursements
+col_a_items_on_hand_to_be_liquidated,42,31 Items on Hand to be Liquidated

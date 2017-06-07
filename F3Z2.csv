@@ -1,0 +1,35 @@
+canonical,^8.2,
+form_type,1,FORM TYPE
+filer_committee_id_number,2,FILER COMMITTEE ID NUMBER
+principal_committee_name,3,PRINCIPAL COMMITTEE NAME
+coverage_from_date,4,COVERAGE FROM DATE
+coverage_through_date,5,COVERAGE THROUGH DATE
+col_a_net_contributions,6,6(c) Net Contributions
+col_a_net_operating_expenditures,7,7(c) Net Operating Expenditures
+col_a_debts_to,8,9 Debts and Obligations Owed TO the Committee
+col_a_debts_by,9,10 Debts and Obligations Owed BY the Committee
+col_a_individual_contributions,10,11(a) Contributions from Individuals/Persons Other Than Political Committees
+col_a_political_party_contributions,11,11(b) Contributions from Political Party Committees
+col_a_pac_contributions,12,11(c) Contributions from Other Political Committees
+col_a_candidate_contributions,13,11(d) Contributions from the Candidate
+col_a_total_contributions,14,11(e) Total Contributions
+col_a_transfers_from_authorized,15,12 Transfers from Other Authorized Committees
+col_a_candidate_loans,16,13(a) Loans Made or Guaranteed by the Candidate
+col_a_other_loans,17,13(b) All Other Loans
+col_a_total_loans,18,13(c) Total Loans
+col_a_offset_to_operating_expenditures,19,14 Offsets to Operating Expenditures
+col_a_other_receipts,20,15 Other Receipts
+col_a_total_receipts,21,16 Total Receipts
+col_a_operating_expenditures,22,17 Operating Expenditures
+col_a_transfers_to_authorized,23,18 Transfers to Other Authorized Committees
+col_a_candidate_loan_repayments,24,19(a) Repayments of Loans Made or Guaranteed by Candidate
+col_a_other_loan_repayments,25,19(b) Other Loan Repayments
+col_a_total_loan_repayments,26,19(c) Total Loan Repayments
+col_a_refunds_to_individuals,27,20(a) Refunds of Contributions to Individuals/Persons
+col_a_refunds_to_party_committees,28,20(b) Refunds of Contributions to Political Party Committees
+col_a_refunds_to_other_committees,29,20(c) Refunds of Contributions to Other Political Committees
+col_a_total_refunds,30,20(d) Total Contributions Refunds
+col_a_other_disbursements,31,21 Other Disbursements
+col_a_total_disbursements,32,22 Total Disbursements
+col_a_cash_beginning_reporting_period,33,23 Cash on Hand at Beginning of Reporting Period
+col_a_cash_on_hand_close,34,27 Cash on Hand at Close of Reporting Period
