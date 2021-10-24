@@ -34,15 +34,15 @@ col_a_expenditures_subject_to_limits,31,13.  Expenditures Subject to Limits,31,1
 col_a_net_contributions,32,14.  Net Contributions,32,14.  Net Contributions,26,14.  Net Contributions,26,14.  Net Contributions
 col_a_net_operating_expenditures,33,15.  Net Operating Expenditures,33,15.  Net Operating Expenditures,27,15.  Net Operating Expenditures,27,15.  Net Operating Expenditures
 col_a_federal_funds,34,16. Federal Funds,34,16. Federal Funds,28,16. Federal Funds,28,16. Federal Funds
-col_a_individuals_itemized,35,17(a.i) Individuals Itemized,,,,,,
-col_a_individuals_unitemized,36,17(a.ii) Individuals Unitemized,,,,,,
+col_a_individual_contributions_itemized,35,17(a.i) Individuals Itemized,,,,,,
+col_a_individual_contributions_unitemized,36,17(a.ii) Individuals Unitemized,,,,,,
 col_a_individual_contribution_total,37,17(a.iii) Individual Contribution Total,35,17(a)  Individuals,29,17(a)  Individuals,29,17(a)  Individuals
-col_a_political_party_committees_receipts,38,17(b) Political Party Committees,36,17(b) Political Party Committees,30,17(b) Political Party Committees,30,17(b) Political Party Committees
-col_a_other_political_committees_pacs,39,17(c) Other Political Committees (PACs),37,17(c) Other Political Committees (PACs),31,17(c) Other Political Committees (PACs),31,17(c) Other Political Committees (PACs)
-col_a_the_candidate,40,17(d) The Candidate,38,17(d) The Candidate,32,17(d) The Candidate,32,17(d) The Candidate
+col_a_political_party_contributions,38,17(b) Political Party Committees,36,17(b) Political Party Committees,30,17(b) Political Party Committees,30,17(b) Political Party Committees
+col_a_pac_contributions,39,17(c) Other Political Committees (PACs),37,17(c) Other Political Committees (PACs),31,17(c) Other Political Committees (PACs),31,17(c) Other Political Committees (PACs)
+col_a_candidate_contributions,40,17(d) The Candidate,38,17(d) The Candidate,32,17(d) The Candidate,32,17(d) The Candidate
 col_a_total_contributions,41,17(e) Total Contributions,39,17(e) Total Contributions,33,17(e) Total Contributions,33,17(e) Total Contributions
 col_a_transfers_from_aff_other_party_cmttees,42,18. Transfers From Aff/Other Party Cmttees,40,18. Transfers From Aff/Other Party Cmttees,34,18. Transfers From Aff/Other Party Cmttees,34,18. Transfers From Aff/Other Party Committees
-col_a_received_from_or_guaranteed_by_cand,43,19(a) Received from or Guaranteed by Cand.,41,19(a) Received from or Guaranteed by Cand.,35,19(a) Received from or Guaranteed by Cand.,35,19(a) Received from or Guaranteed by Candidate
+col_a_candidate_loans,43,19(a) Received from or Guaranteed by Cand.,41,19(a) Received from or Guaranteed by Cand.,35,19(a) Received from or Guaranteed by Cand.,35,19(a) Received from or Guaranteed by Candidate
 col_a_other_loans,44,19(b) Other Loans,42,19(b) Other Loans,36,19(b) Other Loans,36,19(b) Other Loans
 col_a_total_loans,45,19(c) Total Loans,43,19(c) Total Loans,37,19(c) Total Loans,37,19(c) Total Loans
 col_a_operating,46,20(a) Operating,44,20(a) Operating,38,20(a) Operating,38,20(a) Operating
@@ -52,16 +52,16 @@ col_a_total_offsets_to_expenditures,49,20(d) Total offsets to Expenditures,47,20
 col_a_other_receipts,50,21. Other Receipts,48,21. Other Receipts,42,21. Other Receipts,42,21. Other Receipts
 col_a_total_receipts,51,22. Total Receipts,49,22. Total Receipts,43,22. Total Receipts,43,22. Total Receipts
 col_a_operating_expenditures,52,23. Operating Expenditures,50,23. Operating Expenditures,44,23. Operating Expenditures,44,23. Operating Expenditures
-col_a_transfers_to_other_authorized_committees,53,24. Transfers to Other Authorized Committees,51,24. Transfers to Other Authorized Committees,45,24. Transfers to Other Authorized Committees,45,24. Transfers to Other Authorized Committees
+col_a_transfers_to_authorized,53,24. Transfers to Other Authorized Committees,51,24. Transfers to Other Authorized Committees,45,24. Transfers to Other Authorized Committees,45,24. Transfers to Other Authorized Committees
 col_a_fundraising_disbursements,54,25. Fundraising Disbursements,52,25. Fundraising Disbursements,46,25. Fundraising Disbursements,46,25. Fundraising Disbursements
 col_a_exempt_legal_accounting_disbursement,55,26. Exempt Legal & Accounting Disbursement,53,26. Exempt Legal & Accounting Disbursement,47,26. Exempt Legal & Accounting Disbursement,47,26. Exempt Legal and Accounting Disbursements
-col_a_made_or_guaranteed_by_candidate,56,27(a) Made or guaranteed by Candidate,54,27(a) Made or guaranteed by Candidate,48,27(a) Made or guaranteed by Candidate,48,27(a) Made or guaranteed by Candidate
-col_a_other_repayments,57,27(b) Other Repayments,55,27(b) Other Repayments,49,27(b) Other Repayments,49,27(b) Other Repayments
-col_a_total_loan_repayments_made,58,27(c) Total Loan Repayments Made,56,27(c) Total Loan Repayments Made,50,27(c) Total Loan Repayments Made,50,27(c) Total Loan Repayments Made
-col_a_individuals,59,28(a) Individuals,57,28(a) Individuals,51,28(a) Individuals,51,28(a) Individuals
-col_a_political_party_committees_refunds,60,28(b) Political Party Committees,58,28(b) Political Party Committees,52,28(b) Political Party Committees,52,28(b) Political Party Committees
-col_a_other_political_committees,61,28(c) Other Political Committees,59,28(c) Other Political Committees,53,28(c) Other Political Committees,53,28(c) Other Political Committees
-col_a_total_contributions_refunds,62,28(d) Total Contributions Refunds,60,28(d) Total Contributions Refunds,54,28(d) Total Contributions Refunds,54,28(d) Total Contributions Refunds
+col_a_candidate_loan_repayments,56,27(a) Made or guaranteed by Candidate,54,27(a) Made or guaranteed by Candidate,48,27(a) Made or guaranteed by Candidate,48,27(a) Made or guaranteed by Candidate
+col_a_other_loan_repayments,57,27(b) Other Repayments,55,27(b) Other Repayments,49,27(b) Other Repayments,49,27(b) Other Repayments
+col_a_total_loan_repayments,58,27(c) Total Loan Repayments Made,56,27(c) Total Loan Repayments Made,50,27(c) Total Loan Repayments Made,50,27(c) Total Loan Repayments Made
+col_a_refunds_to_individuals,59,28(a) Individuals,57,28(a) Individuals,51,28(a) Individuals,51,28(a) Individuals
+col_a_refunds_to_party_committees,60,28(b) Political Party Committees,58,28(b) Political Party Committees,52,28(b) Political Party Committees,52,28(b) Political Party Committees
+col_a_refunds_to_other_committees,61,28(c) Other Political Committees,59,28(c) Other Political Committees,53,28(c) Other Political Committees,53,28(c) Other Political Committees
+col_a_total_refunds,62,28(d) Total Contributions Refunds,60,28(d) Total Contributions Refunds,54,28(d) Total Contributions Refunds,54,28(d) Total Contributions Refunds
 col_a_other_disbursements,63,29. Other Disbursements,61,29. Other Disbursements,55,29. Other Disbursements,55,29. Other Disbursements
 col_a_total_disbursements,64,30. Total Disbursements,62,30. Total Disbursements,56,30. Total Disbursements,56,30. Total Disbursements
 col_a_items_on_hand_to_be_liquidated,65,31. Items on Hand to be Liquidated,63,31. Items on Hand to be Liquidated,57,31. Items on Hand to be Liquidated,57,31. Items on Hand to be Liquidated
@@ -121,15 +121,15 @@ col_a_guam,118,GUAM,116,GUAM,110,GUAM,110,GUAM
 col_a_virgin_islands,119,VIRGIN ISLANDS,117,VIRGIN ISLANDS,111,VIRGIN ISLANDS,111,VIRGIN ISLANDS
 col_a_totals,120,TOTALS,118,TOTALS,112,TOTALS,112,TOTALS
 col_b_federal_funds,121,16. Federal Funds,119,16. Federal Funds,113,16. Federal Funds,113,16. Federal Funds
-col_b_individuals_itemized,122,17(a.i) Individuals Itemized,,,,,,
-col_b_individuals_unitemized,123,17(a.ii) Individuals Unitemized,,,,,,
+col_b_individual_contributions_itemized,122,17(a.i) Individuals Itemized,,,,,,
+col_b_individual_contributions_unitemized,123,17(a.ii) Individuals Unitemized,,,,,,
 col_b_individual_contribution_total,124,17(a.iii) Individual Contribution Total,120,17(a)  Individuals,114,17(a)  Individuals,114,17(a)  Individuals
-col_b_political_party_committees_receipts,125,17(b) Political Party Committees,121,17(b) Political Party Committees,115,17(b) Political Party Committees,115,17(b) Political Party Committees
-col_b_other_political_committees_pacs,126,17(c) Other Political Committees (PACs),122,17(c) Other Political Committees (PACs),116,17(c) Other Political Committees (PACs),116,17(c) Other Political Committees (PACs)
-col_b_the_candidate,127,17(d) The Candidate,123,17(d) The Candidate,117,17(d) The Candidate,117,17(d) The Candidate
+col_b_political_party_contributions,125,17(b) Political Party Committees,121,17(b) Political Party Committees,115,17(b) Political Party Committees,115,17(b) Political Party Committees
+col_b_pac_contributions,126,17(c) Other Political Committees (PACs),122,17(c) Other Political Committees (PACs),116,17(c) Other Political Committees (PACs),116,17(c) Other Political Committees (PACs)
+col_b_candidate_contributions,127,17(d) The Candidate,123,17(d) The Candidate,117,17(d) The Candidate,117,17(d) The Candidate
 col_b_total_contributions_other_than_loans,128,17(e) Total contributions  (Other than Loans),124,17(e) Total contributions  (Other than Loans),118,17(e) Total contributions  (Other than Loans),118,17(e) Total contributions  (Other than Loans)
 col_b_transfers_from_aff_other_party_cmttees,129,18. Transfers From Aff/Other Party Cmttees,125,18. Transfers From Aff/Other Party Cmttees,119,18. Transfers From Aff/Other Party Cmttees,119,18. Transfers From Aff/Other Party Committees
-col_b_received_from_or_guaranteed_by_cand,130,19(a) Received from or Guaranteed  by Cand.,126,19(a) Received from or Guaranteed  by Cand.,120,19(a) Received from or Guaranteed  by Cand.,120,19(a) Received from or Guaranteed  by Candidate
+col_b_candidate_loans,130,19(a) Received from or Guaranteed  by Cand.,126,19(a) Received from or Guaranteed  by Cand.,120,19(a) Received from or Guaranteed  by Cand.,120,19(a) Received from or Guaranteed  by Candidate
 col_b_other_loans,131,19(b) Other Loans,127,19(b) Other Loans,121,19(b) Other Loans,121,19(b) Other Loans
 col_b_total_loans,132,19(c) Total Loans,128,19(c) Total Loans,122,19(c) Total Loans,122,19(c) Total Loans
 col_b_operating,133,20(a) Operating,129,20(a) Operating,123,20(a) Operating,123,20(a) Operating
@@ -139,16 +139,16 @@ col_b_total_offsets_to_operating_expenditures,136,20(d) Total Offsets to Operati
 col_b_other_receipts,137,21. Other Receipts,133,21. Other Receipts,127,21. Other Receipts,127,21. Other Receipts
 col_b_total_receipts,138,22. Total Receipts,134,22. Total Receipts,128,22. Total Receipts,128,22. Total Receipts
 col_b_operating_expenditures,139,23. Operating Expenditures,135,23. Operating Expenditures,129,23. Operating Expenditures,129,23. Operating Expenditures
-col_b_transfers_to_other_authorized_committees,140,24. Transfers to Other Authorized Committees,136,24. Transfers to Other Authorized Committees,130,24. Transfers to Other Authorized Committees,130,24. Transfers to Other Authorized Committees
+col_b_transfers_to_authorized,140,24. Transfers to Other Authorized Committees,136,24. Transfers to Other Authorized Committees,130,24. Transfers to Other Authorized Committees,130,24. Transfers to Other Authorized Committees
 col_b_fundraising_disbursements,141,25. Fundraising Disbursements,137,25. Fundraising Disbursements,131,25. Fundraising Disbursements,131,25. Fundraising Disbursements
 col_b_exempt_legal_accounting_disbursement,142,26. Exempt Legal & Accounting Disbursement,138,26. Exempt Legal & Accounting Disbursement,132,26. Exempt Legal & Accounting Disbursement,132,26. Exempt Legal and Accounting Disbursements
-col_b_made_or_guaranteed_by_the_candidate,143,27(a) Made or Guaranteed by the Candidate,139,27(a) Made or Guaranteed by the Candidate,133,27(a) Made or Guaranteed by the Candidate,133,27(a) Made or Guaranteed by the Candidate
-col_b_other_repayments,144,27(b) Other Repayments,140,27(b) Other Repayments,134,27(b) Other Repayments,134,27(b) Other Repayments
-col_b_total_loan_repayments_made,145,27(c) Total Loan Repayments Made,141,27(c) Total Loan Repayments Made,135,27(c) Total Loan Repayments Made,135,27(c) Total Loan Repayments Made
-col_b_individuals,146,28(a)  Individuals,142,28(a)  Individuals,136,28(a)  Individuals,136,28(a)  Individuals
-col_b_political_party_committees_refunds,147,28(b) Political Party Committees,143,28(b) Political Party Committees,137,28(b) Political Party Committees,137,28(b) Political Party Committees
-col_b_other_political_committees,148,28(c) Other Political Committees,144,28(c) Other Political Committees,138,28(c) Other Political Committees,138,28(c) Other Political Committees
-col_b_total_contributions_refunds,149,28(d) Total Contributions Refunds,145,28(d) Total Contributions Refunds,139,28(d) Total Contributions Refunds,139,28(d) Total Contributions Refunds
+col_b_candidate_loan_repayments,143,27(a) Made or Guaranteed by the Candidate,139,27(a) Made or Guaranteed by the Candidate,133,27(a) Made or Guaranteed by the Candidate,133,27(a) Made or Guaranteed by the Candidate
+col_b_other_loan_repayments,144,27(b) Other Repayments,140,27(b) Other Repayments,134,27(b) Other Repayments,134,27(b) Other Repayments
+col_b_total_loan_repayments,145,27(c) Total Loan Repayments Made,141,27(c) Total Loan Repayments Made,135,27(c) Total Loan Repayments Made,135,27(c) Total Loan Repayments Made
+col_b_refunds_to_individuals,146,28(a)  Individuals,142,28(a)  Individuals,136,28(a)  Individuals,136,28(a)  Individuals
+col_b_refunds_to_party_committees,147,28(b) Political Party Committees,143,28(b) Political Party Committees,137,28(b) Political Party Committees,137,28(b) Political Party Committees
+col_b_refunds_to_other_committees,148,28(c) Other Political Committees,144,28(c) Other Political Committees,138,28(c) Other Political Committees,138,28(c) Other Political Committees
+col_b_total_refunds,149,28(d) Total Contributions Refunds,145,28(d) Total Contributions Refunds,139,28(d) Total Contributions Refunds,139,28(d) Total Contributions Refunds
 col_b_other_disbursements,150,29. Other Disbursements,146,29. Other Disbursements,140,29. Other Disbursements,140,29. Other Disbursements
 col_b_total_disbursements,151,30. Total Disbursements,147,30. Total Disbursements,141,30. Total Disbursements,141,30. Total Disbursements
 col_b_alabama,152,ALABAMA,148,ALABAMA,142,ALABAMA,142,ALABAMA

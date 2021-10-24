@@ -10,7 +10,7 @@ state,8,STATE,8,STATE,7,STATE,7,STATE
 zip_code,9,ZIP,9,ZIP,8,ZIP,8,ZIP
 report_code,12,REPORT CODE,12,REPORT CODE,12,RPTCODE,12,RPTCODE
 election_code,13,ELECTION CODE  {was RPTPGI},13,ELECTION CODE  {was RPTPGI},13,RPTPGI,13,RPTPGI
-election_date,14,DATE OF ELECTION,12,DATE OF ELECTION,14,DATE (Of Election),14,DATE (Of Election)
+date_of_election,14,DATE OF ELECTION,12,DATE OF ELECTION,14,DATE (Of Election),14,DATE (Of Election)
 election_state,10,ELECTION STATE,10,ELECTION STATE,10,ELECTION STATE,10,ELECTION STATE
 election_district,11,ELECTION DISTRICT,11,ELECTION DISTRICT,11,ELECTION DISTRICT,11,ELECTION DISTRICT
 state_of_election,15,STATE OF ELECTION,15,STATE OF ELECTION,15,STATE (Of Election),15,STATE (Of Election)
@@ -46,7 +46,7 @@ col_a_debts_to,31,9. DEBTS TO ( Totals from SCH C and/or D),38,9. DEBTS TO ( Tot
 col_a_debts_by,32,10. DEBTS BY (Totals from SCH C and/or D),39,10. DEBTS BY (Totals from SCH C and/or D),30,10. DEBTS BY (Totals from SCH C and/or D),30,10. DEBTS BY (Totals from SCH C and/or D)
 col_a_individual_contributions_itemized,33,11(a i.) Individuals Itemized,40,11(a i.) Individuals Itemized,31,11(a i.) Individuals Itemized,31,11(a i.) Individuals Itemized
 col_a_individual_contributions_unitemized,34,11(a.ii) Individuals Unitemized,41,11(a.ii) Individuals Unitemized,32,11(a.ii) Individuals Unitemized,32,11(a.ii) Individuals Unitemized
-col_a_total_individual_contributions,35,11(a.iii) Individual Contribution Total,42,11(a.iii) Individual Contribution Total,33,11(a.iii) Individual Contribution Total,33,11(a.iii) Individual Contribution Total
+col_a_individual_contribution_total,35,11(a.iii) Individual Contribution Total,42,11(a.iii) Individual Contribution Total,33,11(a.iii) Individual Contribution Total,33,11(a.iii) Individual Contribution Total
 col_a_political_party_contributions,36,11(b) Political Party Committees,43,11(b) Political Party Committees,34,11(b) Political Party Committees,34,11(b) Political Party Committees
 col_a_pac_contributions,37,11(c) Other Political Committees,44,11(c) Other Political Committees,35,11(c) Other Political Committees,35,11(c) Other Political Committees
 col_a_candidate_contributions,38,11(d) The Candidate,45,11(d) The Candidate,36,11(d) The Candidate,36,11(d) The Candidate
@@ -69,10 +69,10 @@ col_a_refunds_to_other_committees,54,20(c) Refund/Other Political Committees,61,
 col_a_total_refunds,55,20(d) Total Contribution Refunds,62,20(d) Total Contribution Refunds,53,20(d) Total Contribution Refunds,53,20(d) Total Contribution Refunds
 col_a_other_disbursements,56,21. Other Disbursements,63,21. Other Disbursements,54,21. Other Disbursements,54,21. Other Disbursements
 col_a_total_disbursements,57,22. Total Disbursements,64,22. Total Disbursements,55,22. Total Disbursements,55,22. Total Disbursements
-col_a_cash_beginning_reporting_period,58,23. Cash Beginning Reporting Period,65,23. Cash Beginning Reporting Period,56,23. Cash Beginning Reporting Period,56,23. Cash Beginning Reporting Period
-col_a_total_receipts_period,59,24. Total Receipts this Period,66,24. Total Receipts this Period,57,24. Total Receipts this Period,57,24. Total Receipts this Period
-col_a_subtotals,60,25. Subtotals,67,25. Subtotals,58,25. SubTotal,58,25. SubTotal
-col_a_total_disbursements_period,61,26. Total Disbursements this Period,68,26. Total Disbursements this Period,59,26. Total Disbursements this Period,59,26. Total Disbursements this Period
+col_a_cash_on_hand_beginning_period,58,23. Cash Beginning Reporting Period,65,23. Cash Beginning Reporting Period,56,23. Cash Beginning Reporting Period,56,23. Cash Beginning Reporting Period
+col_a_total_receipts,59,24. Total Receipts this Period,66,24. Total Receipts this Period,57,24. Total Receipts this Period,57,24. Total Receipts this Period
+col_a_subtotal,60,25. Subtotals,67,25. Subtotals,58,25. SubTotal,58,25. SubTotal
+col_a_total_disbursements,61,26. Total Disbursements this Period,68,26. Total Disbursements this Period,59,26. Total Disbursements this Period,59,26. Total Disbursements this Period
 col_a_cash_on_hand_close,62,27. Cash on hand at Close Period,69,27. Cash on hand at Close Period,60,27. Cash on hand at Close Period,60,27. Cash on hand at Close Period
 col_b_total_contributions_no_loans,63,(6a) Total Contributions (No Loans),70,(6a) Total Contributions (No Loans),61,(6a) Total Contributions (No Loans),61,(6a) Total Contributions (No Loans)
 col_b_total_contributions_refunds,64,(6b) Total Contribution Refunds,71,(6b) Total Contribution Refunds,62,(6b) Total Contribution Refunds,62,(6b) Total Contribution Refunds
@@ -82,7 +82,7 @@ col_b_total_offset_to_operating_expenditures,67,(7b) Total Offsets to Operating 
 col_b_net_operating_expenditures,68,(7c) NET Operating Expenditures.,75,(7c) NET Operating Expenditures.,66,(7c) NET Operating Expenditures.,66,(7c) NET Operating Expenditures.
 col_b_individual_contributions_itemized,69,11(a i.) Individuals Itemized,76,11(a i.) Individuals Itemized,67,11(a.i) Individuals Itemized,67,11(a.i) Individuals Itemized
 col_b_individual_contributions_unitemized,70,11(a.ii) Individuals Unitemized,77,11(a.ii) Individuals Unitemized,68,11(a.ii) Individuals Unitemized,68,11(a.ii) Individuals Unitemized
-col_b_total_individual_contributions,71,11(a.iii) Individuals Total,78,11(a.iii) Individuals Total,69,11(a.iii) Individuals Total,69,11(a.iii) Individuals Total
+col_b_individual_contribution_total,71,11(a.iii) Individuals Total,78,11(a.iii) Individuals Total,69,11(a.iii) Individuals Total,69,11(a.iii) Individuals Total
 col_b_political_party_contributions,72,11(b) Political Party Committees,79,11(b) Political Party Committees,70,11(b) Political Party Committees,70,11(b) Political Party Committees
 col_b_pac_contributions,73,11(c) All Other Political Committees (PACS),80,11(c) All Other Political Committees (PACS),71,11(c) All Other Political Committees (PACS),71,11(c) All Other Political Committees (PACS)
 col_b_candidate_contributions,74,11(d) The Candidate,81,11(d) The Candidate,72,11(d) The Candidate,72,11(d) The Candidate
