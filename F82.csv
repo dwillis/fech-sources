@@ -1,0 +1,47 @@
+canonical,^6,,^5,
+form_type,1,FORM TYPE,1,FORM TYPE
+filer_committee_id_number,2,FILER COMMITTEE ID NUMBER,2,FILER FEC CMTE ID
+transaction_id,3,TRANSACTION ID NUMBER,29,TRAN ID
+entity_type,4,ENTITY TYPE,,
+creditor_organization_name,5,CREDITOR ORGANIZATION NAME,,
+creditor_last_name,6,CREDITOR LAST NAME,,
+creditor_first_name,7,CREDITOR FIRST NAME,,
+creditor_middle_name,8,CREDITOR MIDDLE NAME,,
+creditor_prefix,9,CREDITOR PREFIX,,
+creditor_suffix,10,CREDITOR SUFFIX,,
+creditor_street_1,11,CREDITOR STREET 1,5,STREET 1
+creditor_street_2,12,CREDITOR STREET 2,6,STREET 2
+creditor_city,13,CREDITOR CITY,7,CITY
+creditor_state,14,CREDITOR STATE,8,STATE
+creditor_zip_code,15,CREDITOR ZIP,9,ZIP
+date_incurred,16,DATE INCURRED,10,DATE (Incurred)
+amount_owed_to,17,AMOUNT OWED TO,11,AMOUNT OWED TO
+amount_offered_in,18,AMOUNT OFFERED IN,12,AMOUNT OFFERED IN
+creditor_code,19,CREDITOR CODE,3,CREDITOR CODE
+nature_of_debt_description,20,A. DESCRIPTION (Initial Terms And Nature Of Debt),13,A. DESC (Initial Terms And Nature Of Debt)
+efforts_made_to_pay_debt,21,B. DESCRIPTION (Efforts Made By Committee To Pay Debt),14,B. DESC (Efforts Made By Cmte To Pay Debt)
+steps_taken_to_collect,22,C. DESCRIPTION (Steps Taken By Creditor To Collect),15,C. DESC (Steps Taken By Creditor To Collect)
+effort_made_by_creditor,23,D. YES/NO (effort made by creditor to collect…),16,D. YESNO (effort made by creditor to collect...
+no_effort_description,24,"D. DESCRIPTION (IF NO, Explain)",17,D. DESC (N If No Explain)
+terms_of_settlement_comparable,25,E. YES/NO (terms of debt settlement comparable…),18,E. YESNO (terms of debt settlement comparable...
+not_comparable_description,26,"E. DESCRIPTION (IF NO, Explain)",19,E. DESC (N If No Explain)
+creditor_committee_id_number,27,CREDITOR COMMITTEE ID NUMBER,20,FEC COMMITTEE ID NUMBER
+creditor_candidate_id_number,28,CREDITOR CANDIDATE ID NUMBER,21,FEC CANDIDATE ID NUMBER
+creditor_candidate_last_name,29,CREDITOR CANDIDATE LAST NAME,,
+creditor_candidate_first_name,30,CREDITOR CANDIDATE FIRST NAME,,
+creditor_candidate_middle_name,31,CREDITOR CANDIDATE MIDDLE NAME,,
+creditor_candidate_prefix,32,CREDITOR CANDIDATE PREFIX,,
+creditor_candidate_suffix,33,CREDITOR CANDIDATE SUFFIX,,
+creditor_candidate_office,34,CREDITOR CANDIDATE OFFICE,23,CAN/OFFICE
+creditor_candidate_state,35,CREDITOR CANDIDATE STATE,24,CAN/STATE
+creditor_candidate_district,36,CREDITOR CANDIDATE DISTRICT,25,CAN/DIST
+signer_last_name,37,SIGNATURE OF REPRESENTATIVE LAST NAME,,
+signer_first_name,38,SIGNATURE OF REPRESENTATIVE FIRST NAME,,
+signer_middle_name,39,SIGNATURE OF REPRESENTATIVE MIDDLE NAME,,
+signer_prefix,40,SIGNATURE OF REPRESENTATIVE PREFIX,,
+signer_suffix,41,SIGNATURE OF REPRESENTATIVE SUFFIX,,
+date_signed,42,DATE SIGNED,27,DATE (Signed)
+creditor_name,,,4,NAME (Contributor/Lender)
+creditor_candidate_name,,,22,CANDIDATE NAME
+signer_name,,,26,NAME of creditor or representative
+amended_cd,,,28,AMENDED CD

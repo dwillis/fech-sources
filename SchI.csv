@@ -1,0 +1,34 @@
+canonical,^(6|7),,^(3|5),
+form_type,1,FORM TYPE,1,FORM TYPE
+filer_committee_id_number,2,FILER COMMITTEE ID,2,FILER FEC CMTE ID
+transaction_id_number,3,TRANSACTION ID NUMBER,,
+record_id_number,4,RECORD ID NUMBER (for account name),,
+account_name,5,ACCOUNT NAME,4,NAME (Of Account)
+bank_account_id,6,Bank Account ID Number,3,Bank Account ID Number
+coverage_from_date,7,COVERAGE FROM DATE,5,DATE (Coverage From)
+coverage_through_date,8,COVERAGE THROUGH DATE,6,DATE (Coverage To)
+col_a_total_receipts,9,1. Total Receipts,7,1. Total Receipts
+col_a_transfers_to_fed,10,2. Transfers to FED or allocation,8,2. Transfers to FED or allocation
+col_a_transfers_to_state_local,11,3. Transfers to state/local Party organizations,9,3. Transfers to state/local Party organizations
+col_a_direct_state_local_support,12,4. Direct state/local candidate support,10,4. Direct state/local candidate support
+col_a_other_disbursements,13,5. Other Disbursements,11,5. Other Disbursements
+col_a_total_disbursements,14,6. Total Disbursements,12,6. Total Disbursements
+col_a_cash_on_hand_beginning_period,15,7. Beginning COH,13,7. Beginning COH
+col_a_receipts_period,16,8. Receipts,14,8. Receipts
+col_a_subtotal,17,9. Subtotal,15,9. Subtotal
+col_a_disbursements_period,18,10. Disbursements,16,10. Disbursements
+col_a_cash_on_hand_close_of_period,19,11. Ending COH,17,11. Ending COH
+col_b_total_receipts,20,1. Total receipts,18,1. Total receipts
+col_b_transfers_to_fed,21,2. Transfers to FED or allocation,19,2. Transfers to FED or allocation
+col_b_transfers_to_state_local,22,3. Transfers to state/local Party organizations,20,3. Transfers to state/local Party organizations
+col_b_direct_state_local_support,23,4. Direct state/local candidate support,21,4. Direct state/local candidate support
+col_b_other_disbursements,24,5. Other Disbursements,22,5. Other Disbursements
+col_b_total_disbursements,25,6. Total Disbursements,23,6. Total Disbursements
+col_b_cash_on_hand_beginning_period,26,7. Beginning COH (as of Jan 1),24,7. Beginning COH (as of Jan 1)
+col_b_receipts_period,27,8. Receipts,25,8. Receipts
+col_b_subtotal,28,9. Subtotal,26,9. Subtotal
+col_b_disbursements_period,29,10. Disbursements,27,10. Disbursements
+col_b_cash_on_hand_close_of_period,30,11. Ending COH,28,11. Ending COH
+amended_cd,,,29,AMENDED CD
+transaction_id,,,30,TRAN ID
+account_identifier,,,31,System code for account named in Field #4

@@ -1,0 +1,38 @@
+canonical,^6,,^5,
+form_type,1,FORM TYPE,1,FORM TYPE
+filer_committee_id_number,2,FILER COMMITTEE ID NUMBER,2,FILER FEC CMTE ID
+committee_name,3,COMMITTEE NAME,3,COMMITTEE NAME
+street_1,4,STREET 1,4,STREET 1
+street_2,5,STREET 2,5,STREET 2
+city,6,CITY,6,CITY
+state,7,STATE,7,STATE
+zip_code,8,ZIP,8,ZIP
+cash_on_hand,9,1. CASH ON HAND,9,1. CASH ON HAND
+cash_on_hand_as_of_date,10,1(a). AS OF,10,1(a). as of
+total_assets_to_be_liquidated,11,2. Total assets to be liquidated,11,2. Total assets to be liquidated
+total_assets,12,3. Total (assets),12,3. Total (assets)
+receipts_ytd,13,4. Year to date receipts,13,4. Year to date receipts
+disbursements_ytd,14,5. Year to date disbursements,14,5. Year to date disbursements
+total_debts_owed,15,6. Total amount of debts owed by committee,15,6. Total amount of debts owed by cmte
+total_num_creditors_owed,16,7. Total number of creditors owed,16,7. Total number of creditors owed
+num_creditors_part_ii,17,8. Number of creditors in part II of this plan,17,8. Number of creditors in part II of this plan
+total_debts_owed_part_ii,18,9. Total amount of debts owed to creditors in part II of plan,18,9. Total amount of debts owed to creditors in part II of plan
+total_to_be_paid_to_creditors,19,10. Total amount to be paid to creditors,19,10. Total amount to be paid to creditors
+committee_is_terminating_activities,20,11. YES/NO (Is the committee terminating activities),20,11. YESNO (Is the cmte terminating activities)
+planned_termination_report_date,21,11. YES DATE (PLANNED FOR TERMINATION REPORT),21,11. Y DATE (PLANNED FOR TERMINATION RPT)
+other_auth_committees,22,12. YES/NO (If this is an AUTH committee are there other AUTH committees),22,12. YESNO (If this is an auth cmtte are there other auth cmtte.)
+other_auth_committees_description,23,12. DESCRIPTION (IF YES list AUTH COMMITTEE ID/NAMES),23,12. Y DESC (Y IF YES list AUTH CMTE ID/NAMES)
+sufficient_funds_to_pay_total,24,13. YES/NO (sufficient funds to pay total amount),24,13. YESNO (sufficient funds to pay total amount indicated in this plan)
+steps_taken_description,25,"13. DESCRIPTION (IF NO, steps taken to obtain the funds)",25,13. N DESC (N If NO what steps will be taken to obtain the funds)
+committee_filed_previous_plans,26,14. YES/NO (Has the committee filed previous plans),26,14. YESNO (Has the committee filed previous debt settlement plans)
+residual_funds,27,"15. YES/NO (After disposing, any residual funds?)",27,15. YESNO (After disposing ... will there be any residual funds?)
+residual_funds_description,28,"15. DESCRIPTION (IF YES, how will the funds be disbursed)",28,15. Y DESC (IF YES how will the funds be disbursed)
+sufficient_funds_part_iii,29,PART III YES/NO (Does committee have sufficient funds to pay the remaining),29,PART III YESNO (Does cmtte have sufficient funds to pay the remaining
+sufficient_funds_part_iii_description,30,"PART III DESCRIPTION (IF NO, steps taken to obtain the funds.)",30,"PART III DESC (N If no, what steps will be taken to obtain the funds.)"
+treasurer_last_name,31,TREASURER LAST NAME,,
+treasurer_first_name,32,TREASURER FIRST NAME,,
+treasurer_middle_name,33,TREASURER MIDDLE NAME,,
+treasurer_prefix,34,TREASURER PREFIX,,
+treasurer_suffix,35,TREASURER SUFFIX,,
+date_signed,36,DATE SIGNED,32,DATE (Signed)
+treasurer_name,,,31,NAME/TREASURER (as signed)

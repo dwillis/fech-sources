@@ -1,0 +1,12 @@
+canonical,^6,,^5,
+form_type,1,FORM TYPE,1,FORM TYPE
+filer_committee_id_number,2,FILER COMMITTEE ID NUMBER,2,FILER FEC CMTE ID
+transaction_id,3,TRANSACTION ID NUMBER,9,TRAN ID
+election_code,4,ELECTION CODE,,
+election_other_description,5,ELECTION OTHER DESCRIPTION,,
+expenditure_date,6,EXPENDITURE DATE,3,DATE OF EXPENDITURE
+expenditure_amount,7,EXPENDITURE AMOUNT,6,AMOUNT
+loan_check,8,LOAN CHECK,7,LOAN CHECK
+item_elect_cd,,,4,ITEM ELECT CD
+item_elect_other,,,5,ITEM ELECT OTHER
+amended_cd,,,8,AMENDED CD
