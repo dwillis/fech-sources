@@ -6,10 +6,10 @@ date_day_after_general_election,4,Date - Day after General Election,4,Date - Day
 14_net_contributions,5,14. Net Contributions,5,14. Net Contributions,3,14. Net Contributions
 15_net_expenditures,6,15. Net Expenditures,6,15. Net Expenditures,4,15. Net Expenditures
 16_federal_funds,7,16. Federal Funds,7,16. Federal Funds,5,16. Federal Funds
-17_a_individuals,0,,8,17(a)  Individuals,6,17(a)  Individuals
-17_a_i_individual_contributions_itemized,8,17(a.i) Individuals Itemized,0,,,
-17_a_ii_individual_contributions_unitemized,9,17(a.ii) Individuals Unitemized,0,,,
-17_a_iii_individual_contributions_total,10,17(a.iii) Individual Contribution Total,0,,,
+17_a_individuals,,,8,17(a)  Individuals,6,17(a)  Individuals
+17_a_i_individual_contributions_itemized,8,17(a.i) Individuals Itemized,,,,
+17_a_ii_individual_contributions_unitemized,9,17(a.ii) Individuals Unitemized,,,,
+17_a_iii_individual_contributions_total,10,17(a.iii) Individual Contribution Total,,,,
 17_b_political_party_committees,11,17(b) Political Party Committees,9,17(b) Political Party Committees,7,17(b) Political Party Committees
 17_c_other_political_committees_pacs,12,17(c) Other Political Committees (PACs),10,17(c) Other Political Committees (PACs),8,17(c) Other Political Committees (PACs)
 17_d_the_candidate,13,17(d) The Candidate,11,17(d) The Candidate,9,17(d) The Candidate
