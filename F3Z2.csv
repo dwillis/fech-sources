@@ -22,13 +22,13 @@ col_a_other_receipts,20,15 Other Receipts
 col_a_total_receipts,21,16 Total Receipts
 col_a_operating_expenditures,22,17 Operating Expenditures
 col_a_transfers_to_authorized,23,18 Transfers to Other Authorized Committees
-col_a_candidate_loan_repayments,24,19(a) Repayments of Loans Made or Guaranteed by Candidate
-col_a_other_loan_repayments,25,19(b) Other Loan Repayments
-col_a_total_loan_repayments,26,19(c) Total Loan Repayments
-col_a_refunds_to_individuals,27,20(a) Refunds of Contributions to Individuals/Persons
-col_a_refunds_to_party_committees,28,20(b) Refunds of Contributions to Political Party Committees
-col_a_refunds_to_other_committees,29,20(c) Refunds of Contributions to Other Political Committees
-col_a_total_refunds,30,20(d) Total Contributions Refunds
+col_a_loan_repayments_by_candidate,24,19(a) Repayments of Loans Made or Guaranteed by Candidate
+col_a_loan_repayments_other,25,19(b) Other Loan Repayments
+col_a_loan_repayments_total,26,19(c) Total Loan Repayments
+col_a_refunds_individuals,27,20(a) Refunds of Contributions to Individuals/Persons
+col_a_refunds_parties,28,20(b) Refunds of Contributions to Political Party Committees
+col_a_refunds_pacs,29,20(c) Refunds of Contributions to Other Political Committees
+col_a_refunds_total,30,20(d) Total Contributions Refunds
 col_a_other_disbursements,31,21 Other Disbursements
 col_a_total_disbursements,32,22 Total Disbursements
 col_a_cash_beginning_reporting_period,33,23 Cash on Hand at Beginning of Reporting Period

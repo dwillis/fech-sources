@@ -31,13 +31,13 @@ col_a_operating_expenditures,29,23 Operating Expenditures
 col_a_transfers_to_authorized,30,24 Transfers to Other Authorized Committees
 col_a_fundraising_disbursements,31,25 Fundraising Disbursements
 col_a_exempt_legal_disbursements,32,26 Exempt Legal and Accounting Disbursements
-col_a_candidate_loan_repayments,33,27(a) Repayments of Loans Made or Guaranteed by Candidate
-col_a_other_loan_repayments,34,27(b) Other Loan Repayments
-col_a_total_loan_repayments,35,27(c) Total Loan Repayments Made
-col_a_refunds_to_individuals,36,28(a) Refunds of Contributions from Individuals/Persons
-col_a_refunds_to_party_committees,37,28(b) Refunds of Contributions from Political Party Committees
-col_a_refunds_to_other_committees,38,28(c) Refunds of Contributions from Other Political Committees
-col_a_total_refunds,39,28(d) Total Contributions Refunds
+col_a_loan_repayments_by_candidate,33,27(a) Repayments of Loans Made or Guaranteed by Candidate
+col_a_loan_repayments_other,34,27(b) Other Loan Repayments
+col_a_loan_repayments_total,35,27(c) Total Loan Repayments Made
+col_a_refunds_individuals,36,28(a) Refunds of Contributions from Individuals/Persons
+col_a_refunds_parties,37,28(b) Refunds of Contributions from Political Party Committees
+col_a_refunds_pacs,38,28(c) Refunds of Contributions from Other Political Committees
+col_a_refunds_total,39,28(d) Total Contributions Refunds
 col_a_other_disbursements,40,29 Other Disbursements
 col_a_total_disbursements,41,30 Total Disbursements
 col_a_items_on_hand_to_be_liquidated,42,31 Items on Hand to be Liquidated
