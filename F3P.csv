@@ -34,9 +34,9 @@ col_a_expenditures_subject_to_limits,31,13.  Expenditures Subject to Limits,31,1
 col_a_net_contributions,32,14.  Net Contributions,32,14.  Net Contributions,26,14.  Net Contributions,26,14.  Net Contributions
 col_a_net_operating_expenditures,33,15.  Net Operating Expenditures,33,15.  Net Operating Expenditures,27,15.  Net Operating Expenditures,27,15.  Net Operating Expenditures
 col_a_federal_funds,34,16. Federal Funds,34,16. Federal Funds,28,16. Federal Funds,28,16. Federal Funds
-col_a_individuals_itemized,35,17(a.i) Individuals Itemized,,,,,,
-col_a_individuals_unitemized,36,17(a.ii) Individuals Unitemized,,,,,,
-col_a_individual_contribution_total,37,17(a.iii) Individual Contribution Total,35,17(a)  Individuals,29,17(a)  Individuals,29,17(a)  Individuals
+col_a_individual_contributions_itemized,35,17(a.i) Individuals Itemized,,,,,,
+col_a_individual_contributions_unitemized,36,17(a.ii) Individuals Unitemized,,,,,,
+col_a_individual_contributions_total,37,17(a.iii) Individual Contribution Total,35,17(a)  Individuals,29,17(a)  Individuals,29,17(a)  Individuals
 col_a_political_party_committees_receipts,38,17(b) Political Party Committees,36,17(b) Political Party Committees,30,17(b) Political Party Committees,30,17(b) Political Party Committees
 col_a_other_political_committees_pacs,39,17(c) Other Political Committees (PACs),37,17(c) Other Political Committees (PACs),31,17(c) Other Political Committees (PACs),31,17(c) Other Political Committees (PACs)
 col_a_the_candidate,40,17(d) The Candidate,38,17(d) The Candidate,32,17(d) The Candidate,32,17(d) The Candidate
@@ -121,9 +121,9 @@ col_a_guam,118,GUAM,116,GUAM,110,GUAM,110,GUAM
 col_a_virgin_islands,119,VIRGIN ISLANDS,117,VIRGIN ISLANDS,111,VIRGIN ISLANDS,111,VIRGIN ISLANDS
 col_a_totals,120,TOTALS,118,TOTALS,112,TOTALS,112,TOTALS
 col_b_federal_funds,121,16. Federal Funds,119,16. Federal Funds,113,16. Federal Funds,113,16. Federal Funds
-col_b_individuals_itemized,122,17(a.i) Individuals Itemized,,,,,,
-col_b_individuals_unitemized,123,17(a.ii) Individuals Unitemized,,,,,,
-col_b_individual_contribution_total,124,17(a.iii) Individual Contribution Total,120,17(a)  Individuals,114,17(a)  Individuals,114,17(a)  Individuals
+col_b_individual_contributions_itemized,122,17(a.i) Individuals Itemized,,,,,,
+col_b_individual_contributions_unitemized,123,17(a.ii) Individuals Unitemized,,,,,,
+col_b_individual_contributions_total,124,17(a.iii) Individual Contribution Total,120,17(a)  Individuals,114,17(a)  Individuals,114,17(a)  Individuals
 col_b_political_party_committees_receipts,125,17(b) Political Party Committees,121,17(b) Political Party Committees,115,17(b) Political Party Committees,115,17(b) Political Party Committees
 col_b_other_political_committees_pacs,126,17(c) Other Political Committees (PACs),122,17(c) Other Political Committees (PACs),116,17(c) Other Political Committees (PACs),116,17(c) Other Political Committees (PACs)
 col_b_the_candidate,127,17(d) The Candidate,123,17(d) The Candidate,117,17(d) The Candidate,117,17(d) The Candidate
