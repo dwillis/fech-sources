@@ -1,4 +1,4 @@
-canonical,^8.4|8.3|8.2|8.1|8.0|7.0|6.4,,^6.3|6.2|6.1,,^5.3|5.2|5.1|5.0,,^3.0,
+canonical,^8.5|8.4|8.3|8.2|8.1|8.0|7.0|6.4,,^6.3|6.2|6.1,,^5.3|5.2|5.1|5.0,,^3.0,
 form_type,1,FORM TYPE,1,FORM TYPE,1,FORM TYPE,1,FORM TYPE
 filer_committee_id_number,2,FILER COMMITTEE ID NUMBER,2,FILER COMMITTEE ID NUMBER,2,FILER COMMITTEE ID NUMBER,2,FILER COMMITTEE ID NUMBER
 committee_name,3,COMMITTEE NAME,3,COMMITTEE NAME,3,COMMITTEE NAME,3,COMMITTEE NAME
@@ -10,16 +10,16 @@ state,8,STATE,8,STATE,7,STATE,7,STATE
 zip_code,9,ZIP,9,ZIP,8,ZIP,8,ZIP
 report_code,12,REPORT CODE,12,REPORT CODE,12,RPTCODE,12,RPTCODE
 election_code,13,ELECTION CODE  {was RPTPGI},13,ELECTION CODE  {was RPTPGI},13,RPTPGI,13,RPTPGI
-date_of_election,14,DATE OF ELECTION,14,DATE OF ELECTION,14,DATE (Of Election),14,DATE (Of Election)
+election_date,14,DATE OF ELECTION,12,DATE OF ELECTION,14,DATE (Of Election),14,DATE (Of Election)
 election_state,10,ELECTION STATE,10,ELECTION STATE,10,ELECTION STATE,10,ELECTION STATE
 election_district,11,ELECTION DISTRICT,11,ELECTION DISTRICT,11,ELECTION DISTRICT,11,ELECTION DISTRICT
 state_of_election,15,STATE OF ELECTION,15,STATE OF ELECTION,15,STATE (Of Election),15,STATE (Of Election)
 coverage_from_date,16,COVERAGE FROM DATE,16,COVERAGE FROM DATE,20,DATE (Coverage From),20,DATE (Coverage From)
 coverage_through_date,17,COVERAGE THROUGH DATE,17,COVERAGE THROUGH DATE,21,DATE (Coverage To),21,DATE (Coverage To)
-primary_election,,,,,16,PRIMARY ELECTION ,16,PRIMARY ELECTION
+primary_election,,,,,16,PRIMARY ELECTION ,16,PRIMARY ELECTION 
 general_election,,,,,17,GENERAL ELECTION,17,GENERAL ELECTION
-special_election,,,,,18,SPECIAL ELECTION ,18,SPECIAL ELECTION
-runoff_election,,,,,19,RUNOFF ELECTION ,19,RUNOFF ELECTION
+special_election,,,,,18,SPECIAL ELECTION ,18,SPECIAL ELECTION 
+runoff_election,,,,,19,RUNOFF ELECTION ,19,RUNOFF ELECTION 
 treasurer_name,,,,,92,NAME/TREASURER (as signed),92,NAME/TREASURER (as signed)
 treasurer_last_name,18,TREASURER LAST NAME,18,TREASURER LAST NAME,,,,
 treasurer_first_name,19,TREASURER FIRST NAME,19,TREASURER FIRST NAME,,,,
@@ -60,13 +60,13 @@ col_a_other_receipts,45,15. Other Receipts,52,15. Other Receipts,43,15. Other Re
 col_a_total_receipts,46,16. Total Receipts,53,16. Total Receipts,44,16. Total Receipts,44,16. Total Receipts
 col_a_operating_expenditures,47,17. Operating Expenditures,54,17. Operating Expenditures,45,17. Operating Expenditures,45,17. Operating Expenditures
 col_a_transfers_to_authorized,48,18. Transfers to Other Authorized Committees,55,18. Transfers to Other Authorized Committees,46,18. Transfers to Other Authorized Committees,46,18. Transfers to Other Authorized Committees
-col_a_loan_repayments_by_candidate,49,19(a) Of Loans made or guar. by the Cand.,56,19(a) Of Loans made or guar. by the Cand.,47,19(a) Of Loans made or guar. by the Cand.,47,19(a) Of Loans made or guar. by the Cand.
-col_a_loan_repayments_other,50,"19(b) Loan Repayments, All Other Loans",57,"19(b) Loan Repayments, All Other Loans",48,"19(b) Loan Repayments, All Other Loans",48,"19(b) Loan Repayments, All Other Loans"
-col_a_loan_repayments_total,51,19(c) Total Loan Repayments,58,19(c) Total Loan Repayments,49,19(c) Total Loan Repayments,49,19(c) Total Loan Repayments
-col_a_refunds_individuals,52,20(a) Refund/Individuals Other than Pol. Cmtes,59,20(a) Refund/Individuals Other than Pol. Cmtes,50,20(a) Refund/Individuals Other than Pol. Cmtes,50,20(a) Refund/Individuals Other than Pol. Cmtes
-col_a_refunds_parties,53,20(b) Refund/Political Party Committees,60,20(b) Refund/Political Party Committees,51,20(b) Refund/Political Party Committees,51,20(b) Refund/Political Party Committees
-col_a_refunds_pacs,54,20(c) Refund/Other Political Committees,61,20(c) Refund/Other Political Committees,52,20(c) Refund/Other Political Committees,52,20(c) Refund/Other Political Committees
-col_a_refunds_total,55,20(d) Total Contribution Refunds,62,20(d) Total Contribution Refunds,53,20(d) Total Contribution Refunds,53,20(d) Total Contribution Refunds
+col_a_candidate_loan_repayments,49,19(a) Of Loans made or guar. by the Cand.,56,19(a) Of Loans made or guar. by the Cand.,47,19(a) Of Loans made or guar. by the Cand.,47,19(a) Of Loans made or guar. by the Cand.
+col_a_other_loan_repayments,50,"19(b) Loan Repayments, All Other Loans",57,"19(b) Loan Repayments, All Other Loans",48,"19(b) Loan Repayments, All Other Loans",48,"19(b) Loan Repayments, All Other Loans"
+col_a_total_loan_repayments,51,19(c) Total Loan Repayments,58,19(c) Total Loan Repayments,49,19(c) Total Loan Repayments,49,19(c) Total Loan Repayments
+col_a_refunds_to_individuals,52,20(a) Refund/Individuals Other than Pol. Cmtes,59,20(a) Refund/Individuals Other than Pol. Cmtes,50,20(a) Refund/Individuals Other than Pol. Cmtes,50,20(a) Refund/Individuals Other than Pol. Cmtes
+col_a_refunds_to_party_committees,53,20(b) Refund/Political Party Committees,60,20(b) Refund/Political Party Committees,51,20(b) Refund/Political Party Committees,51,20(b) Refund/Political Party Committees
+col_a_refunds_to_other_committees,54,20(c) Refund/Other Political Committees,61,20(c) Refund/Other Political Committees,52,20(c) Refund/Other Political Committees,52,20(c) Refund/Other Political Committees
+col_a_total_refunds,55,20(d) Total Contribution Refunds,62,20(d) Total Contribution Refunds,53,20(d) Total Contribution Refunds,53,20(d) Total Contribution Refunds
 col_a_other_disbursements,56,21. Other Disbursements,63,21. Other Disbursements,54,21. Other Disbursements,54,21. Other Disbursements
 col_a_total_disbursements,57,22. Total Disbursements,64,22. Total Disbursements,55,22. Total Disbursements,55,22. Total Disbursements
 col_a_cash_beginning_reporting_period,58,23. Cash Beginning Reporting Period,65,23. Cash Beginning Reporting Period,56,23. Cash Beginning Reporting Period,56,23. Cash Beginning Reporting Period
@@ -82,7 +82,7 @@ col_b_total_offset_to_operating_expenditures,67,(7b) Total Offsets to Operating 
 col_b_net_operating_expenditures,68,(7c) NET Operating Expenditures.,75,(7c) NET Operating Expenditures.,66,(7c) NET Operating Expenditures.,66,(7c) NET Operating Expenditures.
 col_b_individual_contributions_itemized,69,11(a i.) Individuals Itemized,76,11(a i.) Individuals Itemized,67,11(a.i) Individuals Itemized,67,11(a.i) Individuals Itemized
 col_b_individual_contributions_unitemized,70,11(a.ii) Individuals Unitemized,77,11(a.ii) Individuals Unitemized,68,11(a.ii) Individuals Unitemized,68,11(a.ii) Individuals Unitemized
-col_b_individual_contributions_total,71,11(a.iii) Individuals Total,78,11(a.iii) Individuals Total,69,11(a.iii) Individuals Total,69,11(a.iii) Individuals Total
+col_b_total_individual_contributions,71,11(a.iii) Individuals Total,78,11(a.iii) Individuals Total,69,11(a.iii) Individuals Total,69,11(a.iii) Individuals Total
 col_b_political_party_contributions,72,11(b) Political Party Committees,79,11(b) Political Party Committees,70,11(b) Political Party Committees,70,11(b) Political Party Committees
 col_b_pac_contributions,73,11(c) All Other Political Committees (PACS),80,11(c) All Other Political Committees (PACS),71,11(c) All Other Political Committees (PACS),71,11(c) All Other Political Committees (PACS)
 col_b_candidate_contributions,74,11(d) The Candidate,81,11(d) The Candidate,72,11(d) The Candidate,72,11(d) The Candidate
@@ -96,13 +96,13 @@ col_b_other_receipts,81,15. Other Receipts,88,15. Other Receipts,79,15. Other Re
 col_b_total_receipts,82,16. Total Receipts,89,16. Total Receipts,80,16. Total Receipts,80,16. Total Receipts
 col_b_operating_expenditures,83,17 Operating Expenditures,90,17 Operating Expenditures,81,17 Operating Expenditures,81,17 Operating Expenditures
 col_b_transfers_to_authorized,84,18. Transfers To Other AUTH Committees,91,18. Transfers To Other AUTH Committees,82,18. Transfers To Other AUTH Committees,82,18. Transfers To Other AUTH Committees
-col_b_loan_repayments_by_candidate,85,19(a) Loan Repayment By Candidate,92,19(a) Loan Repayment By Candidate,83,19(a) Loan Repayment By Candidate,83,19(a) Loan Repayment By Candidate
-col_b_loan_repayments_other,86,"19(b) Loan Repayments,  ALL Other Loans",93,"19(b) Loan Repayments,  ALL Other Loans",84,"19(b) Loan Repayments,  ALL Other Loans",84,"19(b) Loan Repayments,  ALL Other Loans"
-col_b_loan_repayments_total,87,19(c) Total Loan Repayments,94,19(c) Total Loan Repayments,85,19(c) Total Loan Repayments,85,19(c) Total Loan Repayments
-col_b_refunds_individuals,88,20(a) Refund/Individuals Other than Pol. Cmtes,95,20(a) Refund/Individuals Other than Pol. Cmtes,86,20(a) Refund/Individuals Other than Pol. Cmtes,86,20(a) Refund/Individuals Other than Pol. Cmtes
-col_b_refunds_parties,89,"20(b) Refund, Political Party Committees",96,"20(b) Refund, Political Party Committees",87,"20(b) Refund, Political Party Committees",87,"20(b) Refund, Political Party Committees"
-col_b_refunds_pacs,90,"20(c) Refund, Other Political Committees",97,"20(c) Refund, Other Political Committees",88,"20(c) Refund, Other Political Committees",88,"20(c) Refund, Other Political Committees"
-col_b_refunds_total,91,20(d) Total Contributions Refunds,98,20(d) Total Contributions Refunds,89,20(d) Total Contributions Refunds,89,20(d) Total Contributions Refunds
+col_b_candidate_loan_repayments,85,19(a) Loan Repayment By Candidate,92,19(a) Loan Repayment By Candidate,83,19(a) Loan Repayment By Candidate,83,19(a) Loan Repayment By Candidate
+col_b_other_loan_repayments,86,"19(b) Loan Repayments,  ALL Other Loans",93,"19(b) Loan Repayments,  ALL Other Loans",84,"19(b) Loan Repayments,  ALL Other Loans",84,"19(b) Loan Repayments,  ALL Other Loans"
+col_b_total_loan_repayments,87,19(c) Total Loan Repayments,94,19(c) Total Loan Repayments,85,19(c) Total Loan Repayments,85,19(c) Total Loan Repayments
+col_b_refunds_to_individuals,88,20(a) Refund/Individuals Other than Pol. Cmtes,95,20(a) Refund/Individuals Other than Pol. Cmtes,86,20(a) Refund/Individuals Other than Pol. Cmtes,86,20(a) Refund/Individuals Other than Pol. Cmtes
+col_b_refunds_to_party_committees,89,"20(b) Refund, Political Party Committees",96,"20(b) Refund, Political Party Committees",87,"20(b) Refund, Political Party Committees",87,"20(b) Refund, Political Party Committees"
+col_b_refunds_to_other_committees,90,"20(c) Refund, Other Political Committees",97,"20(c) Refund, Other Political Committees",88,"20(c) Refund, Other Political Committees",88,"20(c) Refund, Other Political Committees"
+col_b_total_refunds,91,20(d) Total Contributions Refunds,98,20(d) Total Contributions Refunds,89,20(d) Total Contributions Refunds,89,20(d) Total Contributions Refunds
 col_b_other_disbursements,92,21. Other Disbursements,99,21. Other Disbursements,90,21. Other Disbursements,90,21. Other Disbursements
 col_b_total_disbursements,93,22. Total Disbursements,100,22. Total Disbursements,91,22. Total Disbursements,91,22. Total Disbursements
 col_b_gross_receipts_authorized_primary,,,101,Gross Receipts of Authorized Committees (primary),97,1. GROSS RECEIPTS OF AUTHORIZED COMMITTEES  (PRIMARY),,

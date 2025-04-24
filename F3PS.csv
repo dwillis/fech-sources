@@ -1,4 +1,4 @@
-canonical,^8.4|8.3|8.2|8.1|8.0|7.0,,^6.4|6.3|6.2|6.1,,^5.3|5.2|5.1|5.0|3,
+canonical,^8.5|8.4|8.3|8.2|8.1|8.0|7.0,,^6.4|6.3|6.2|6.1,,^5.3|5.2|5.1|5.0|3,
 form_type,1,FORM TYPE,1,FORM TYPE,1,FORM TYPE
 filer_committee_id_number,2,FILER COMMITTEE ID NUMBER,2,FILER COMMITTEE ID NUMBER,2,FILER FEC CMTE ID
 date_general_election,3,Date - General Election,3,Date - General Election,89,Date - General Election
@@ -6,10 +6,10 @@ date_day_after_general_election,4,Date - Day after General Election,4,Date - Day
 14_net_contributions,5,14. Net Contributions,5,14. Net Contributions,3,14. Net Contributions
 15_net_expenditures,6,15. Net Expenditures,6,15. Net Expenditures,4,15. Net Expenditures
 16_federal_funds,7,16. Federal Funds,7,16. Federal Funds,5,16. Federal Funds
-17_a_individuals,,,8,17(a)  Individuals,6,17(a)  Individuals
-17_a_i_individual_contributions_itemized,8,17(a.i) Individuals Itemized,,,,
-17_a_ii_individual_contributions_unitemized,9,17(a.ii) Individuals Unitemized,,,,
-17_a_iii_individual_contributions_total,10,17(a.iii) Individual Contribution Total,,,,
+17_a_individuals,0,,8,17(a)  Individuals,6,17(a)  Individuals
+17_a_i_individuals_itemized,8,17(a.i) Individuals Itemized,0,,,
+17_a_ii_individuals_unitemized,9,17(a.ii) Individuals Unitemized,0,,,
+17_a_iii_individual_contribution_total,10,17(a.iii) Individual Contribution Total,0,,,
 17_b_political_party_committees,11,17(b) Political Party Committees,9,17(b) Political Party Committees,7,17(b) Political Party Committees
 17_c_other_political_committees_pacs,12,17(c) Other Political Committees (PACs),10,17(c) Other Political Committees (PACs),8,17(c) Other Political Committees (PACs)
 17_d_the_candidate,13,17(d) The Candidate,11,17(d) The Candidate,9,17(d) The Candidate
@@ -28,13 +28,13 @@ date_day_after_general_election,4,Date - Day after General Election,4,Date - Day
 24_transfers_to_other_authorized_committees,26,24. Transfers to Other Authorized Committees,24,24. Transfers to Other Authorized Committees,22,24. Transfers to Other Authorized Committees
 25_fundraising_disbursements,27,25. Fundraising Disbursements,25,25. Fundraising Disbursements,23,25. Fundraising Disbursements
 26_exempt_legal_and_accounting_disbursements,28,26. Exempt Legal and Accounting Disbursements,26,26. Exempt Legal and Accounting Disbursements,24,26. Exempt Legal and Accounting Disbursements
-27_a_loan_repayments_by_candidate,29,27(a) Made or Guaranteed by the Candidate,27,27(a) Made or Guaranteed by the Candidate,25,27(a) Made or Guaranteed by the Candidate
-27_b_loan_repayments_other,30,27(b) Other Repayments,28,27(b) Other Repayments,26,27(b) Other Repayments
-27_c_loan_repayments_total_made,31,27(c) Total Loan Repayments Made,29,27(c) Total Loan Repayments Made,27,27(c) Total Loan Repayments Made
-28_a_refunds_individuals,32,28(a)  Individuals,30,28(a)  Individuals,28,28(a)  Individuals
-28_b_refunds_parties,33,28(b) Political Party Committees,31,28(b) Political Party Committees,29,28(b) Political Party Committees
-28_c_refunds_pacs,34,28(c) Other Political Committees,32,28(c) Other Political Committees,30,28(c) Other Political Committees
-28_d_refunds_total,35,28(d) Total Contributions Refunds,33,28(d) Total Contributions Refunds,31,28(d) Total Contributions Refunds
+27_a_made_or_guaranteed_by_the_candidate,29,27(a) Made or Guaranteed by the Candidate,27,27(a) Made or Guaranteed by the Candidate,25,27(a) Made or Guaranteed by the Candidate
+27_b_other_repayments,30,27(b) Other Repayments,28,27(b) Other Repayments,26,27(b) Other Repayments
+27_c_total_loan_repayments_made,31,27(c) Total Loan Repayments Made,29,27(c) Total Loan Repayments Made,27,27(c) Total Loan Repayments Made
+28_a_individuals,32,28(a)  Individuals,30,28(a)  Individuals,28,28(a)  Individuals
+28_b_political_party_committees,33,28(b) Political Party Committees,31,28(b) Political Party Committees,29,28(b) Political Party Committees
+28_c_other_political_committees,34,28(c) Other Political Committees,32,28(c) Other Political Committees,30,28(c) Other Political Committees
+28_d_total_contributions_refunds,35,28(d) Total Contributions Refunds,33,28(d) Total Contributions Refunds,31,28(d) Total Contributions Refunds
 29_other_disbursements,36,29. Other Disbursements,34,29. Other Disbursements,32,29. Other Disbursements
 30_total_disbursements,37,30. Total Disbursements,35,30. Total Disbursements,33,30. Total Disbursements
 alabama,38,ALABAMA,36,ALABAMA,34,ALABAMA
